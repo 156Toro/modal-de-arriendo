@@ -1,0 +1,91 @@
+/* Panel de administración */
+.rental-manager-panel {
+    margin-top: 20px;
+}
+
+.rental-manager-panel .panel-heading {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.rental-manager-panel .form-wrapper {
+    padding: 20px;
+}
+
+.rental-manager-panel .form-group {
+    margin-bottom: 25px;
+}
+
+.rental-manager-panel .help-block {
+    font-size: 12px;
+    color: #7f8c8d;
+}
+
+.rental-manager-panel .form-control-static {
+    padding-top: 7px;
+}
+
+.rental-manager-panel .text-muted {
+    font-size: 12px;
+}
+
+/* Switch personalizado */
+.prestashop-switch {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.prestashop-switch input {
+    position: absolute;
+    opacity: 0;
+}
+
+.prestashop-switch label {
+    padding: 7px 12px;
+    background: #ecf0f1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.prestashop-switch input:checked + label {
+    background: #2ecc71;
+    color: white;
+}
+
+/* Botones de acción */
+.btn-download-log {
+    margin-right: 10px;
+}
+
+/* Sección de información */
+.module-info-box {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border-left: 4px solid #3498db;
+}
+
+.module-info-box h4 {
+    margin-top: 0;
+    color: #3498db;
+}
+
+.module-info-box ul {
+    padding-left: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .rental-manager-panel .col-lg-3,
+    .rental-manager-panel .col-lg-9 {
+        width: 100%;
+        float: none;
+    }
+    
+    .rental-manager-panel .control-label {
+        margin-bottom: 5px;
+    }
+}
